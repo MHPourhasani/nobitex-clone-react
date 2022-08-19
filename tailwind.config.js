@@ -2,6 +2,10 @@
 module.exports = {
 	content: ['./src/**/*.{js,jsx,ts,tsx}'],
 	theme: {
+		fontFamily: {
+			vazirmatn: ['Vazirmatn'],
+			vazirmatnFD: ['Vazirmatn FD']
+		},
 		extend: {},
 	},
 	plugins: [],
