@@ -6,6 +6,11 @@ import bg1image from '../assets/images/bg-img-1.svg';
 import simple_and_practical from '../assets/images/simple-and-practical.png';
 import safe_buying_and_selling from '../assets/images/safe-buying-and-selling.png';
 import leading_and_fast from '../assets/images/leading-and-fast.png';
+import wallet from '../assets/images/wallet.png';
+import bank_card from '../assets/images/bank-card.png';
+import finger_print from '../assets/images/finger-print.png';
+import wage from '../assets/images/wage.png';
+import laptop_and_mobile from '../assets/images/laptop-and-mobile.png';
 
 // icons
 import { AiFillPlayCircle } from 'react-icons/ai';
@@ -113,6 +118,90 @@ const HomePage = () => {
 								قرار داده است.
 							</p>
 						</div>
+					</section>
+				</section>
+
+				{/* (the best facilities for buying and selling digital currencies) section */}
+				<section className='flex flex-col items-center justify-center py-10 px-7 sm:py-8 md:gap-y-16 lg:px-20 xl:px-7'>
+					<span className='w-11/12 text-center text-lg font-medium xl:text-3xl'>
+						بهترین امکانات خرید و فروش ارزهای دیجیتال
+					</span>
+					<section className='flex w-full flex-col-reverse items-center justify-between md:flex-row'>
+						<ul className='flex w-full flex-col gap-y-7 md:gap-y-10'>
+							{/* wallet balance management list item */}
+							<li className='flex w-full items-start gap-x-4'>s
+								<div className='flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-white shadow-md md:h-20 md:w-20'>
+									<img src={wallet} alt='wallet' />
+								</div>
+
+								<div className='flex w-8/12 flex-col gap-y-3 sm:w-10/12 md:w-8/12 lg:w-7/12 xl:w-8/12'>
+									<span className='text-base font-medium xl:text-xl'>
+										مدیریت موجودی کیف پول
+									</span>
+									<p className='text-xs leading-relaxed xl:text-base'>
+										رمزارزهای دیجیتال محبوب را خرید و فروش کنید و در یکجا وضعیت
+										موجودی خود را دنبال کنید
+									</p>
+								</div>
+							</li>
+
+							{/* payment with Shetab cards list item */}
+							<li className='flex w-full items-start gap-x-4'>
+								<div className='flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-white shadow-md md:h-20 md:w-20'>
+									<img src={bank_card} alt='bank card' />
+								</div>
+
+								<div className='flex w-8/12 flex-col gap-y-3 sm:w-10/12 md:w-8/12 lg:w-7/12 xl:w-8/12'>
+									<span className='text-base font-medium xl:text-xl'>
+										پرداخت با کارت‌های شتاب
+									</span>
+									<p className='text-xs leading-relaxed xl:text-base'>
+										معامله انواع رمزارز با تومان از طریق واریز و برداشت با
+										کارت‌های بانکی عضو شتاب
+									</p>
+								</div>
+							</li>
+
+							{/* secure wallet list item */}
+							<li className='flex w-full items-start gap-x-4'>
+								<div className='flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-white shadow-md md:h-20 md:w-20'>
+									<img src={finger_print} alt='finger print' />
+								</div>
+
+								<div className='flex w-8/12 flex-col gap-y-3 sm:w-10/12 md:w-8/12 lg:w-7/12 xl:w-8/12'>
+									<span className='text-base font-medium xl:text-xl'>
+										کیف پول امن
+									</span>
+									<p className='text-xs leading-relaxed xl:text-base'>
+										رمز اختصاصی کیف پول شما به صورت آفلاین نگهداری می شود و در
+										برابر هک ایمن خواهد بود
+									</p>
+								</div>
+							</li>
+
+							{/* competitive fee list item */}
+							<li className='flex w-full items-start gap-x-4'>
+								<div className='flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-white shadow-md md:h-20 md:w-20'>
+									<img src={wage} alt='wage' />
+								</div>
+								<div className='flex w-8/12 flex-col gap-y-3 sm:w-10/12 md:w-8/12 lg:w-7/12 xl:w-8/12'>
+									<span className='text-base font-medium xl:text-xl'>
+										کارمزد رقابتی
+									</span>
+									<p className='text-xs leading-relaxed xl:text-base'>
+										کارمزد خرید و فروش در نوبیتکس بسیار کم است و با بالاتر رفتن
+										حجم معاملات کاهش می‌یابد
+									</p>
+								</div>
+							</li>
+						</ul>
+
+						{/* laptop and mobile image */}
+						<img
+							src={laptop_and_mobile}
+							alt='laptop and mobile'
+							className='my-5 w-full sm:my-7 sm:w-5/12 md:w-11/12 lg:w-10/12 xl:w-11/12'
+						/>
 					</section>
 				</section>
 			</main>
