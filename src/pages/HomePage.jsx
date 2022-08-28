@@ -129,11 +129,10 @@ const HomePage = () => {
 					<section className='flex w-full flex-col-reverse items-center justify-between md:flex-row'>
 						<ul className='flex w-full flex-col gap-y-7 md:gap-y-10'>
 							{/* wallet balance management list item */}
-							<li className='flex w-full items-start gap-x-4'>s
+							<li className='flex w-full items-start gap-x-4'>
 								<div className='flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-white shadow-md md:h-20 md:w-20'>
 									<img src={wallet} alt='wallet' />
 								</div>
-
 								<div className='flex w-8/12 flex-col gap-y-3 sm:w-10/12 md:w-8/12 lg:w-7/12 xl:w-8/12'>
 									<span className='text-base font-medium xl:text-xl'>
 										مدیریت موجودی کیف پول
