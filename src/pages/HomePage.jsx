@@ -11,6 +11,10 @@ import bank_card from '../assets/images/bank-card.png';
 import finger_print from '../assets/images/finger-print.png';
 import wage from '../assets/images/wage.png';
 import laptop_and_mobile from '../assets/images/laptop-and-mobile.png';
+import shopping_quide from '../assets/images/shopping-quide.png';
+import educational_videos from '../assets/images/educational-videos.png';
+import blog from '../assets/images/blog.png';
+import question_mark from '../assets/images/question-mark.png';
 
 // icons
 import { AiFillPlayCircle } from 'react-icons/ai';
@@ -202,6 +206,75 @@ const HomePage = () => {
 							className='my-5 w-full sm:my-7 sm:w-5/12 md:w-11/12 lg:w-10/12 xl:w-11/12'
 						/>
 					</section>
+				</section>
+
+				{/* learn more with Nobitex section */}
+				<section className='flex w-full flex-col items-center justify-center gap-y-10 bg-white pt-8 pb-20 md:gap-y-14 xl:pb-32'>
+					<span className='w-11/12 text-center text-lg font-medium xl:text-3xl'>
+						همراه با نوبیتکس بیشتر یاد بگیرید
+					</span>
+
+					<ul className='flex flex-wrap items-start justify-center gap-10 sm:flex-nowrap sm:gap-16 md:gap-28 xl:gap-48'>
+						<li className='w-4/12 sm:w-auto'>
+							<a
+								href='https://help.nobitex.ir/'
+								target='_blank'
+								rel='noreferrer'
+								className='flex flex-col items-center gap-y-2 md:gap-y-5'>
+								<div className='flex h-20 w-20 items-center justify-center rounded-full border-[12px] border-gray-100 hover:border-8 hover:border-violet-600 hover:transition-all hover:ease-in md:h-28 md:w-28'>
+									<img src={shopping_quide} alt='shopping quide' />
+								</div>
+								<span className='text-xs leading-loose text-violet-600 hover:transition-all hover:ease-in md:text-base md:text-black md:hover:text-violet-600'>
+									راهنمای خرید ارز دیجیتال
+								</span>
+							</a>
+						</li>
+
+						<li className='w-4/12 sm:w-auto'>
+							<a
+								href='https://www.aparat.com/nobitex/'
+								target='_blank'
+								rel='noreferrer'
+								className='flex flex-col items-center gap-y-2 md:gap-y-5'>
+								<div className='flex h-20 w-20 items-center justify-center rounded-full border-[12px] border-gray-100 hover:border-8 hover:border-violet-600 hover:transition-all hover:ease-in md:h-28 md:w-28'>
+									<img src={educational_videos} alt='educational videos' />
+								</div>
+								<span className='text-xs leading-loose text-violet-600 hover:transition-all hover:ease-in md:text-base md:text-black md:hover:text-violet-600'>
+									ویدئوهای آموزشی
+								</span>
+							</a>
+						</li>
+
+						<li className='w-4/12 sm:w-auto'>
+							<a
+								href='https://blog.nobitex.ir/'
+								target='_blank'
+								rel='noreferrer'
+								className='flex flex-col items-center gap-y-2 md:gap-y-5'>
+								<div className='flex h-20 w-20 items-center justify-center rounded-full border-[12px] border-gray-100 hover:border-8 hover:border-violet-600 hover:transition-all hover:ease-in md:h-28 md:w-28'>
+									<img src={blog} alt='blog' />
+								</div>
+								<span className='text-xs leading-loose text-violet-600 hover:transition-all hover:ease-in md:text-base md:text-black md:hover:text-violet-600'>
+									نوبیتکس بلاگ
+								</span>
+							</a>
+						</li>
+
+						<li className='w-4/12 sm:w-auto'>
+							<a
+								href='https://nobitex.ir/faq/'
+								target='_blank'
+								rel='noreferrer'
+								className='flex flex-col items-center gap-y-2 md:gap-y-5'>
+								<div className='flex h-20 w-20 items-center justify-center rounded-full border-[12px] border-gray-100 hover:border-8 hover:border-violet-600 hover:transition-all hover:ease-in md:h-28 md:w-28'>
+									<img src={question_mark} alt='question mark' />
+								</div>
+								<span className='text-xs leading-loose text-violet-600 hover:transition-all hover:ease-in md:text-base md:text-black md:hover:text-violet-600'>
+									سوالات متداول
+								</span>
+							</a>
+						</li>
+					</ul>
 				</section>
 			</main>
 		</Layout>
