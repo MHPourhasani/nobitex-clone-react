@@ -15,6 +15,7 @@ import shopping_quide from '../assets/images/shopping-quide.png';
 import educational_videos from '../assets/images/educational-videos.png';
 import blog from '../assets/images/blog.png';
 import question_mark from '../assets/images/question-mark.png';
+import nobitex_profit from '../assets/images/nobitex-profit.png';
 
 // icons
 import { AiFillPlayCircle } from 'react-icons/ai';
@@ -22,7 +23,7 @@ import { AiFillPlayCircle } from 'react-icons/ai';
 const HomePage = () => {
 	return (
 		<Layout>
-			<main className='flex w-full flex-col items-center justify-center overflow-hidden bg-gray-100 py-10 font-vazirmatn md:py-16'>
+			<main className='flex w-full flex-col items-center justify-center overflow-hidden bg-gray-100 pt-10 font-vazirmatn md:pt-16'>
 				{/* title and description span */}
 				<span className='z-30 text-center md:my-2'>
 					<p className='text-2xl font-medium sm:tracking-tight md:text-3xl xl:text-5xl xl:font-normal'>
@@ -279,6 +280,32 @@ const HomePage = () => {
 							</a>
 						</li>
 					</ul>
+				</section>
+
+				{/* share in the profits of Nobitex section */}
+				<section className='flex flex-col-reverse items-center justify-center gap-y-3 bg-gradient-to-b from-violet-100 to-violet-50 px-5 sm:px-8 md:flex-row md:pb-5 md:h-56 lg:h-56 lg:px-16 xl:h-80 xl:px-8'>
+					<div className='flex flex-col items-center gap-y-4 md:items-start xl:gap-y-6 xl:pt-10'>
+						{/* nobitex profit title */}
+						<span className='text-lg font-medium xl:text-3xl'>
+							در سود نوبیتکس سهیم شوید
+						</span>
+						{/* nobitex profit description */}
+						<p className='w-11/12 text-center text-[15px] sm:w-full md:text-right md:text-xs md:leading-relaxed lg:w-11/12 xl:w-10/12 xl:text-xl'>
+							با دعوت از دوستانتان با لینک اختصاصی خود، هر بار که معامله می‌کنند برای
+							همیشه تا 30% از کارمزد معاملاتشان از طرف نوبیتکس به شما تعلق می‌گیرد
+						</p>
+						{/* know more link */}
+						<Link
+							to='/referral'
+							className='mt-4 w-11/12 rounded-full bg-violet-600 py-1.5 text-center text-white hover:bg-violet-700 hover:transition-all hover:ease-in sm:w-full md:w-4/12 lg:w-3/12 xl:w-2/12'>
+							بیشتر بدانید
+						</Link>
+					</div>
+
+					{/* nobitex profit image */}
+					<div className='w-full -translate-y-10 px-2 sm:w-8/12 sm:-translate-y-12 md:w-full md:translate-y-0 md:-translate-x-5 md:scale-110 lg:w-8/12 lg:translate-x-5 lg:-translate-y-8 lg:scale-110 xl:scale-[1.2]'>
+						<img src={nobitex_profit} alt='nobitex profit' />
+					</div>
 				</section>
 			</main>
 		</Layout>
