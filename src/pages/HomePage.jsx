@@ -215,6 +215,7 @@ const HomePage = () => {
 					</span>
 
 					<ul className='flex flex-wrap items-start justify-center gap-10 sm:flex-nowrap sm:gap-16 md:gap-28 xl:gap-48'>
+						{/* Guide to buying digital currency list item */}
 						<li className='w-4/12 sm:w-auto'>
 							<a
 								href='https://help.nobitex.ir/'
@@ -230,6 +231,7 @@ const HomePage = () => {
 							</a>
 						</li>
 
+						{/* Educational videos list item */}
 						<li className='w-4/12 sm:w-auto'>
 							<a
 								href='https://www.aparat.com/nobitex/'
@@ -245,6 +247,7 @@ const HomePage = () => {
 							</a>
 						</li>
 
+						{/* Nobitex blog list item */}
 						<li className='w-4/12 sm:w-auto'>
 							<a
 								href='https://blog.nobitex.ir/'
@@ -260,6 +263,7 @@ const HomePage = () => {
 							</a>
 						</li>
 
+						{/* Frequently Asked Questions list item */}
 						<li className='w-4/12 sm:w-auto'>
 							<a
 								href='https://nobitex.ir/faq/'
