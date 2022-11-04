@@ -4,9 +4,13 @@ module.exports = {
 	theme: {
 		fontFamily: {
 			vazirmatn: ['Vazirmatn'],
-			vazirmatnFD: ['Vazirmatn FD']
+			vazirmatnFD: ['Vazirmatn FD'],
 		},
-		extend: {},
+		extend: {
+			borderWidth: {
+				1: '1px',
+			},
+		},
 	},
 	plugins: [],
 };
