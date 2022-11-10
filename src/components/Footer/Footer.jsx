@@ -259,9 +259,7 @@ const Footer = () => {
 								<a href='https://nobitex.ir/contact'>تماس با ما</a>
 							</li>
 							<li className='hover:text-white'>
-								<a href='mailto:support@nobitex.ir'>
-									support@nobitex.ir
-								</a>
+								<a href='mailto:support@nobitex.ir'>support@nobitex.ir</a>
 							</li>
 						</ul>
 
@@ -271,32 +269,40 @@ const Footer = () => {
 
 							<div className='flex items-center gap-x-4 md:gap-x-8'>
 								{/* linkedin social media */}
-								<Link
-									to='https://www.linkedin.com/company/nobitexmarket/'
+								<a
+									href='https://www.linkedin.com/company/nobitexmarket/'
+									target='_blank'
+									rel='noopener noreferrer'
 									className='flex h-8 w-8 items-center justify-center rounded-md bg-white text-gray-900 md:h-8 md:w-8'>
 									<ImLinkedin2 className='h-auto w-4 md:w-5' />
-								</Link>
+								</a>
 
 								{/* telegram social media */}
-								<Link
-									to='https://t.me/nobitexmarket/'
+								<a
+									href='https://t.me/nobitexmarket/'
+									target='_blank'
+									rel='noopener noreferrer'
 									className='flex h-8 w-8 items-center justify-center rounded-full bg-white text-gray-900 md:h-8 md:w-8'>
 									<FaTelegramPlane className='h-auto w-4 md:w-5' />
-								</Link>
+								</a>
 
 								{/* instagram social media */}
-								<Link
-									to='https://www.instagram.com/nobitex_market/'
+								<a
+									href='https://www.instagram.com/nobitex_market/'
+									target='_blank'
+									rel='noopener noreferrer'
 									className='flex h-8 w-8 items-center justify-center rounded-full bg-white text-gray-900 md:h-8 md:w-8'>
 									<FaInstagram className='h-auto w-5 md:w-5' />
-								</Link>
+								</a>
 
 								{/* twitter social media */}
-								<Link
-									to='https://twitter.com/nobitexmarket/'
+								<a
+									href='https://twitter.com/nobitexmarket/'
+									target='_blank'
+									rel='noopener noreferrer'
 									className='flex h-8 w-8 items-center justify-center rounded-full bg-white text-gray-900 md:h-8 md:w-8'>
 									<AiOutlineTwitter className='h-auto w-5 md:w-5' />
-								</Link>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -306,32 +312,40 @@ const Footer = () => {
 				<section className='flex flex-col items-center justify-center gap-2 md:hidden'>
 					<div className='flex items-center gap-8'>
 						{/* linkedin social media */}
-						<Link
-							to='https://www.linkedin.com/company/nobitexmarket/'
+						<a
+							href='https://www.linkedin.com/company/nobitexmarket/'
+							target='_blank'
+							rel='noopener noreferrer'
 							className='flex h-8 w-8 items-center justify-center rounded-md bg-white text-gray-900 md:h-8 md:w-8'>
 							<ImLinkedin2 className='h-auto w-5' />
-						</Link>
+						</a>
 
 						{/* telegram social media */}
-						<Link
-							to='https://t.me/nobitexmarket/'
+						<a
+							href='https://t.me/nobitexmarket/'
+							target='_blank'
+							rel='noopener noreferrer'
 							className='flex h-8 w-8 items-center justify-center rounded-full bg-white text-gray-900 md:h-8 md:w-8'>
 							<FaTelegramPlane className='h-auto w-5' />
-						</Link>
+						</a>
 
 						{/* instagram social media */}
-						<Link
-							to='https://www.instagram.com/nobitex_market/'
+						<a
+							href='https://www.instagram.com/nobitex_market/'
+							target='_blank'
+							rel='noopener noreferrer'
 							className='flex h-8 w-8 items-center justify-center rounded-full bg-white text-gray-900 md:h-8 md:w-8'>
 							<FaInstagram className='h-auto w-5 md:w-5' />
-						</Link>
+						</a>
 
 						{/* twitter social media */}
-						<Link
-							to='https://twitter.com/nobitexmarket/'
+						<a
+							href='https://twitter.com/nobitexmarket/'
+							target='_blank'
+							rel='noopener noreferrer'
 							className='flex h-8 w-8 items-center justify-center rounded-full bg-white text-gray-900 md:h-8 md:w-8'>
 							<AiOutlineTwitter className='h-auto w-5 md:w-5' />
-						</Link>
+						</a>
 					</div>
 
 					<span className='text-white'>با ما در دنیای رمزارزها همراه شو!</span>
